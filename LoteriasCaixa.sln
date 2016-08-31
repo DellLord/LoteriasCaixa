@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D2CD01D5-0A4C-4B55-852E-DA9994BFD937}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B3D83B3F-031B-4EF0-962F-BE49C47D5DB4}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "LoteriasCaixa", "src\LoteriasCaixa\LoteriasCaixa.xproj", "{718C0112-9A53-4202-A353-7F9BCDF150B1}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "LoteriasCaixa.Api", "src\LoteriasCaixa.Api\LoteriasCaixa.Api.xproj", "{6AFFD10B-7F34-4BF5-BCE5-0C238858CED4}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "LoteriasCaixa.Services", "src\LoteriasCaixa.Services\LoteriasCaixa.Services.xproj", "{467CDEDB-E7C3-433D-8211-7A3140AC10D6}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "LoteriasCaixa.Common", "src\LoteriasCaixa.Common\LoteriasCaixa.Common.xproj", "{89CD61AC-2B1E-401A-B9EE-7A2907815355}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{718C0112-9A53-4202-A353-7F9BCDF150B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{718C0112-9A53-4202-A353-7F9BCDF150B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{718C0112-9A53-4202-A353-7F9BCDF150B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{718C0112-9A53-4202-A353-7F9BCDF150B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AFFD10B-7F34-4BF5-BCE5-0C238858CED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AFFD10B-7F34-4BF5-BCE5-0C238858CED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AFFD10B-7F34-4BF5-BCE5-0C238858CED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AFFD10B-7F34-4BF5-BCE5-0C238858CED4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{467CDEDB-E7C3-433D-8211-7A3140AC10D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{467CDEDB-E7C3-433D-8211-7A3140AC10D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{467CDEDB-E7C3-433D-8211-7A3140AC10D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{467CDEDB-E7C3-433D-8211-7A3140AC10D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89CD61AC-2B1E-401A-B9EE-7A2907815355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89CD61AC-2B1E-401A-B9EE-7A2907815355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89CD61AC-2B1E-401A-B9EE-7A2907815355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89CD61AC-2B1E-401A-B9EE-7A2907815355}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{718C0112-9A53-4202-A353-7F9BCDF150B1} = {D2CD01D5-0A4C-4B55-852E-DA9994BFD937}
+		{6AFFD10B-7F34-4BF5-BCE5-0C238858CED4} = {D2CD01D5-0A4C-4B55-852E-DA9994BFD937}
+		{467CDEDB-E7C3-433D-8211-7A3140AC10D6} = {D2CD01D5-0A4C-4B55-852E-DA9994BFD937}
+		{89CD61AC-2B1E-401A-B9EE-7A2907815355} = {D2CD01D5-0A4C-4B55-852E-DA9994BFD937}
+	EndGlobalSection
+EndGlobal
