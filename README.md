@@ -1,0 +1,2 @@
+# LoteriasCaixaWebApiCore
+Loterias da Caixa
