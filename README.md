@@ -1,4 +1,4 @@
-# Loteria Caixa Web Api Core 1
+# Loteria Caixa Web Api Core
 
 Api para recuperar jogos da Loteria da Caixa Econômica Federal
 
