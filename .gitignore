@@ -3,3 +3,7 @@
 ################################################################################
 
 /src/LoteriasCaixa.Api/Properties/PublishProfiles/Default Settings.pubxml.user
+/src/LoteriasCaixa.Api/Properties/PublishProfiles/Default Settings.pubxml
+/src/LoteriasCaixa.Api/Properties/PublishProfiles/Default Settings-publish.ps1
+/src/LoteriasCaixa.Api/Properties/PublishProfiles/publish-module.psm1
+

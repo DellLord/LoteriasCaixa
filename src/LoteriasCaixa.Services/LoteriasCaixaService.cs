@@ -36,7 +36,7 @@ namespace LoteriasCaixa.Services
 
                 default:
 
-                    return await Task.Run(() => "Tipo de Jogo inválido.");
+                    return await Task.Run(() => "Tipo de Jogo inválido.".ToJsonResult());
             }
         }        
     }
