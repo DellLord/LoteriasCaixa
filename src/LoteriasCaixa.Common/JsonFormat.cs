@@ -15,5 +15,10 @@
         {
             return $"{InicioResultado}{json}{FimResultado}";
         }
+
+        public static string ToJsonWithNoDots(this string text)
+        {
+            return text.Replace(".", string.Empty);
+        }
     }
 }

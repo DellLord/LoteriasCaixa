@@ -10,6 +10,7 @@ namespace LoteriasCaixa.Common
         LotoMania = 3,
         Quina = 4,
         TimeMania = 5,
-        DuplaSena = 6
+        DuplaSena = 6,
+        Federal = 7
     }
 }

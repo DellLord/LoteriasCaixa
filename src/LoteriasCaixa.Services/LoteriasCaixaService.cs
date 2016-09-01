@@ -34,6 +34,10 @@ namespace LoteriasCaixa.Services
 
                     return await Task.Run(() => new DuplaSena(numeroConcurso).ResultadoJogo);
 
+                case TipoJogo.Federal:
+
+                    return await Task.Run(() => new Federal(numeroConcurso).ResultadoJogo);
+
                 default:
 
                     return await Task.Run(() => "\"Tipo de Jogo inválido.\"".ToJsonResult());

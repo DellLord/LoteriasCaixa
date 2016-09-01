@@ -13,6 +13,8 @@
         public const string TimeMania = "http://www1.caixa.gov.br/loterias/loterias/timemania/timemania_pesquisa.asp?submeteu=sim&opcao=concurso&txtconcurso=";
 
         public const string DuplaSena = "http://www1.caixa.gov.br/loterias/loterias/duplasena/duplasena_pesquisa_new.asp?submeteu=sim&opcao=concurso&txtconcurso=";
+
+        public const string Federal = "http://www1.caixa.gov.br/loterias/loterias/federal/federal_pesquisa.asp?submeteu=sim&opcao=concurso&txtconcurso=";
     }
 
     public static class RegexExpression
