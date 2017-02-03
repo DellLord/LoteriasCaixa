@@ -6,7 +6,7 @@ Api para recuperar jogos da Loteria da Caixa Econômica Federal
 
 # Modo de uso:
 
-http://www.rodrigosoria.net/api/LoteriasCaixa/{numeroJogo}/{tipoJogo}
+http://www.rodrigosoria.net/services/api/LoteriasCaixa/{numeroJogo}/{tipoJogo}
 
 Numero de jogo é o número do concurso que desejamos buscar;<br>
 Tipo de jogo é o tipo de loteria, no caso possuimos na Api os tipos "MegaSena" ou número 1, "LotoFacil" ou número 2,<br>
@@ -16,8 +16,8 @@ Tipo de jogo é o tipo de loteria, no caso possuimos na Api os tipos "MegaSena" 
 
 # MegaSena
 
-http://www.rodrigosoria.net/api/LoteriasCaixa/1000/MegaSena<br>
-http://www.rodrigosoria.net/api/LoteriasCaixa/1000/1
+http://www.rodrigosoria.net/services/api/LoteriasCaixa/1000/MegaSena<br>
+http://www.rodrigosoria.net/services/api/LoteriasCaixa/1000/1
 
 Resultado Json<br>
 
@@ -27,8 +27,8 @@ Resultado Json<br>
 
 # LotoFacil 
 
-http://www.rodrigosoria.net/api/LoteriasCaixa/1000/LotoFacil<br>
-http://www.rodrigosoria.net/api/LoteriasCaixa/1000/2
+http://www.rodrigosoria.net/services/api/LoteriasCaixa/1000/LotoFacil<br>
+http://www.rodrigosoria.net/services/api/LoteriasCaixa/1000/2
 
 Resultado Json<br>
 
@@ -38,8 +38,8 @@ Resultado Json<br>
 
 # LotoMania 
 
-http://www.rodrigosoria.net/api/LoteriasCaixa/1000/LotoMania<br>
-http://www.rodrigosoria.net/api/LoteriasCaixa/1000/3
+http://www.rodrigosoria.net/services/api/LoteriasCaixa/1000/LotoMania<br>
+http://www.rodrigosoria.net/services/api/LoteriasCaixa/1000/3
 
 Resultado Json<br>
 
@@ -49,8 +49,8 @@ Resultado Json<br>
 
 # Quina 
 
-http://www.rodrigosoria.net/api/LoteriasCaixa/1000/Quina<br>
-http://www.rodrigosoria.net/api/LoteriasCaixa/1000/4
+http://www.rodrigosoria.net/services/api/LoteriasCaixa/1000/Quina<br>
+http://www.rodrigosoria.net/services/api/LoteriasCaixa/1000/4
 
 Resultado Json<br>
 
@@ -60,8 +60,8 @@ Resultado Json<br>
 
 # TimeMania 
 
-http://www.rodrigosoria.net/api/LoteriasCaixa/100/TimeMania<br>
-http://www.rodrigosoria.net/api/LoteriasCaixa/100/5
+http://www.rodrigosoria.net/services/api/LoteriasCaixa/100/TimeMania<br>
+http://www.rodrigosoria.net/services/api/LoteriasCaixa/100/5
 
 Resultado Json<br>
 
@@ -71,8 +71,8 @@ Resultado Json<br>
 
 # DuplaSena 
 
-http://www.rodrigosoria.net/api/LoteriasCaixa/1000/DuplaSena<br>
-http://www.rodrigosoria.net/api/LoteriasCaixa/1000/6
+http://www.rodrigosoria.net/services/api/LoteriasCaixa/1000/DuplaSena<br>
+http://www.rodrigosoria.net/services/api/LoteriasCaixa/1000/6
 
 Resultado Json<br>
 
